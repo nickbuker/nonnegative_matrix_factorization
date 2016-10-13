@@ -16,9 +16,9 @@ class NMF(object):
         self.n = V.shape[0]
         self.m = V.shape[1]
         # Create W and H matrices
-        self.create_mat()
+        self._create_mat()
 
-    def create_mat(self):
+    def _create_mat(self):
         """
         Initialize the W and H matrices of appropriate dimensions
         Random floats will be optimized by fit function
