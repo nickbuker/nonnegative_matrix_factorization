@@ -56,7 +56,7 @@ class NMF(object):
 
     def mean_sqr_err(self):
         """
-        Returns mean squared error of reconstructed approximation of V
+        Returns: Mean squared error of reconstructed approximation of V
         """
         V_recon = self.reconstruct()
         return np.mean(np.square(self.V - V_recon))
