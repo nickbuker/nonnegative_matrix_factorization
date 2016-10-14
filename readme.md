@@ -36,7 +36,7 @@ class NMF(object):
 
     def fit(self):
         """
-        Optimize the values of H and W using least squared error
+        Optimize the values of H and W using alternating least squared error
         Returns: Optimized W and H matrices
         """
         for rep in xrange(self.reps):
