@@ -4,6 +4,7 @@ A simple NMF class created using the NumPy library in Python.
 
 <img src="images/python.png" width="120">
 <img src="images/atom.png" width="120">
+<img src="images/linux.png" width="120">
 
 ```python
 import numpy as np
